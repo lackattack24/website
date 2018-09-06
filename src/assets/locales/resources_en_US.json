@@ -1,8 +1,4 @@
 {
-  "example_string": {
-    "message": "This is an example string",
-    "_description": "The _description property gives context to the translator as to how the string is used in the product"
-  },
   "app_nav_about": {
     "message": "About",
     "_description": "The text for the About top-level navigation item"
@@ -15,8 +11,12 @@
     "message": "Speedruns",
     "_description": "The text for the Speedruns top-level navigation item"
   },
-  "home_title": {
-    "message": "SKY UX Template",
-    "_description": "Title for the home component"
+  "app_nav_goals": {
+    "message": "Goals",
+    "_description": "The text for the Goals top-level navigation item"
+  },
+  "app_nav_marathons": {
+    "message": "Marathons",
+    "_description": "The text for the Marathons top-level navigation item"
   }
 }

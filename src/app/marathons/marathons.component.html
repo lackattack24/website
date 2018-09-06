@@ -1,0 +1,15 @@
+<app-nav>
+</app-nav>
+
+<sky-grid fit="scroll" [data]="items" (sortFieldChange)="sortChanged($event)">
+  <sky-grid-column id="id" field="id" heading="ID">
+  </sky-grid-column>
+  <sky-grid-column id="event" field="event" heading="Event">
+  </sky-grid-column>
+  <sky-grid-column id="game" field="game" heading="Game">
+  </sky-grid-column>
+  <sky-grid-column id="category" field="category" heading="Category">
+  </sky-grid-column>
+  <sky-grid-column id="notes" field="notes" heading="Notes">
+  </sky-grid-column>
+</sky-grid>

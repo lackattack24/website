@@ -12,12 +12,20 @@ export class AppNavComponent {
       path: '/'
     },
     {
-      titleKey: 'app_nav_about',
-      path: '/about'
-    },
-    {
       titleKey: 'app_nav_speedruns',
       path: '/speedruns'
+    },
+    {
+      titleKey: 'app_nav_goals',
+      path: '/goals'
+    },
+    {
+      titleKey: 'app_nav_marathons',
+      path: '/marathons'
+    },
+    {
+      titleKey: 'app_nav_about',
+      path: '/about'
     }
   ];
 }
