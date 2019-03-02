@@ -1,3 +1,11 @@
 language: node_js
 node_js:
  - "node"
+before_install:
+  - npm install npm@latest -g
+  - npm install node-pre-gyp
+  - npm i --no-optional
+  - npm dedupe
+  - npm up
+  - npm install -g vsce
+  - npm install @blackbaud/skyux
